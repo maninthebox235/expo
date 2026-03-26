@@ -3177,12 +3177,13 @@
     nullthrows "^1.1.1"
 
 "@react-navigation/bottom-tabs@^7.3.0", "@react-navigation/bottom-tabs@^7.3.1":
-  version "7.3.6"
-  resolved "https://registry.yarnpkg.com/@react-navigation/bottom-tabs/-/bottom-tabs-7.3.6.tgz#793aa988e2bb14d817434e2320922a41bc75a8ce"
-  integrity sha512-BL7nwjmQhmh4vH+skA5/4xic0NTLh7Mg78ngrvJ+FagdGILX6zQb4fMI3yN5SrCBpZNvhDQvD9prkwdUUR9OBw==
+  version "7.15.7"
+  resolved "https://registry.yarnpkg.com/@react-navigation/bottom-tabs/-/bottom-tabs-7.15.7.tgz#1f55129139608ddb70c3088566590b7d22097786"
+  integrity sha512-OXNvU0esvyZf//KpaIsFh2GD1otxqG+Lv48VfkNIh+3DEbOnqni8pOrKdICgoC4T0R8oVln7pnVeHl89Gipv8w==
   dependencies:
-    "@react-navigation/elements" "^2.3.4"
+    "@react-navigation/elements" "^2.9.12"
     color "^4.2.3"
+    sf-symbols-typescript "^2.1.0"
 
 "@react-navigation/core@7.6.0", "@react-navigation/core@^7.6.0":
   version "7.6.0"
@@ -3207,7 +3208,7 @@
     react-native-drawer-layout "^4.1.2"
     use-latest-callback "^0.2.1"
 
-"@react-navigation/elements@2.2.8", "@react-navigation/elements@^2.2.5", "@react-navigation/elements@^2.2.8", "@react-navigation/elements@^2.3.4":
+"@react-navigation/elements@2.2.8", "@react-navigation/elements@^2.2.5", "@react-navigation/elements@^2.2.8", "@react-navigation/elements@^2.9.12":
   version "2.2.8"
   resolved "https://registry.yarnpkg.com/@react-navigation/elements/-/elements-2.2.8.tgz#b63fb2128940744c927f9931faa88e433de10eb2"
   integrity sha512-wJoeywG/hHIml4+ycFiQKofYczkLNbHw0s5i8tSXJYzhZ0B1P3s945Tuuf0OreZtnK5XX4K3p3VQ66RtBWA88w==
@@ -12432,10 +12433,10 @@ picocolors@^1.0.0, picocolors@^1.1.0:
   resolved "https://registry.yarnpkg.com/picocolors/-/picocolors-1.1.1.tgz#3d321af3eab939b083c8f929a1d12cda81c26b6b"
   integrity sha512-xceH2snhtb5M9liqDsmEw56le376mTZkEX/jEb/RxNFyegNul7eNslCXP9FDj/Lcu0X8KEyMceP2ntpaHrDEVA==
 
-picomatch@^2.0.4, picomatch@^2.2.1, picomatch@^2.2.3, picomatch@^2.3.1:
-  version "2.3.1"
-  resolved "https://registry.yarnpkg.com/picomatch/-/picomatch-2.3.1.tgz#3ba3833733646d9d3e4995946c1365a67fb07a42"
-  integrity sha512-JU3teHTNjmE2VCGFzuY8EXzCDVwEqB2a8fsIvwaStHhAWJEeVd1o1QD80CU6+ZdEXXSLbSsuLwJjkCBWqRQUVA==
+picomatch@^2.0.4, picomatch@^2.2.1, picomatch@^2.2.3, picomatch@^2.3.1, picomatch@^2.3.2:
+  version "2.3.2"
+  resolved "https://registry.yarnpkg.com/picomatch/-/picomatch-2.3.2.tgz#5a942915e26b372dc0f0e6753149a16e6b1c5601"
+  integrity sha512-V7+vQEJ06Z+c5tSye8S+nHUfI51xoXIXjHQ99cQtKUkQqqO1kO/KCJUfZXuB47h/YBlDhah2H3hdUGXn8ie0oA==
 
 picomatch@^3.0.1:
   version "3.0.1"
@@ -14060,6 +14061,11 @@ sf-symbols-typescript@^2.0.0:
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/sf-symbols-typescript/-/sf-symbols-typescript-2.0.0.tgz#52548c84d124914faed1868c55bb71bffac472f1"
   integrity sha512-Fc8Uhhl2plqXMw7GQ8q83t/zj1xhNCJvteDNJUDULaH/4a/Eqw5aW1UYEznyEIgkokw7QYXuQ9hOw8jhBLXL0A==
+
+sf-symbols-typescript@^2.1.0:
+  version "2.2.0"
+  resolved "https://registry.yarnpkg.com/sf-symbols-typescript/-/sf-symbols-typescript-2.2.0.tgz#926d6e0715e3d8784cadf7658431e36581254208"
+  integrity sha512-TPbeg0b7ylrswdGCji8FRGFAKuqbpQlLbL8SOle3j1iHSs5Ob5mhvMAxWN2UItOjgALAB5Zp3fmMfj8mbWvXKw==
 
 shallowequal@^1.1.0:
   version "1.1.0"
