@@ -71,7 +71,7 @@
   },
   "homepage": "https://github.com/expo/expo/tree/main/packages/expo",
   "dependencies": {
-    "@babel/runtime": "^7.20.0",
+    "@babel/runtime": "^7.29.2",
     "@expo/cli": "0.23.0",
     "@expo/config": "~11.0.0",
     "@expo/config-plugins": "~9.1.0",
@@ -96,7 +96,7 @@
     "react": "19.0.0",
     "react-dom": "19.0.0",
     "react-native": "0.79.0-rc.4",
-    "ws": "^8.18.0"
+    "ws": "^8.18.1"
   },
   "peerDependencies": {
     "@expo/dom-webview": "*",
